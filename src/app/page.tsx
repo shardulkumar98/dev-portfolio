@@ -1,4 +1,6 @@
-export default function Home() {
+import React from "react";
+
+const Home = () => {
   return (
     <div className="w-full gap-8 md:gap-5 min-h-[70vh] md:min-h-[83vh] p-5 md:p-24 flex flex-col justify-center">
       <div className="font-oxygen text-5xl md:text-6xl lg:text-7xl">
@@ -12,4 +14,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default React.memo(Home);

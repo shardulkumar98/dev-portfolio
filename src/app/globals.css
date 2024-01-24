@@ -13,6 +13,7 @@
 body {
   background-color: #2d3250;
   color: #fff;
+  min-height: 100vh;
 }
 
 @layer utilities {
