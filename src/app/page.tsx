@@ -4,13 +4,13 @@ import React from "react";
 const Home = () => {
   return (
     <div className="w-full gap-8 md:gap-4 min-h-[70vh] md:min-h-[83vh] p-5 md:p-24 flex flex-col justify-center">
-      <div className="font-oxygen text-2xl">
+      <div className="font-oxygen text-2xl text-[#FC6736]">
         Hello
       </div>
-      <div className="font-oxygen text-3xl  md:text-5xl lg:text-7xl">
+      <div className="font-oxygen text-3xl md:text-5xl lg:text-7xl">
         I'm Shardul Kumar
       </div>
-      <div className="font-oxygen opacity-75 text-2 md:text-xl lg:text-2xl">
+      <div className="font-oxygen opacity-75 text-[#FC6736] text-2 md:text-xl lg:text-2xl">
         MERN Stack Developer
       </div>
       <div
