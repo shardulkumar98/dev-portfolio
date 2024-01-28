@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-export default function Home() {
+import React from "react";
+
+const Home = () => {
   return (
     <div className="w-full gap-8 md:gap-4 min-h-[70vh] md:min-h-[83vh] p-5 md:p-24 flex flex-col justify-center">
       <div className="font-oxygen text-2xl">
@@ -19,4 +21,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default React.memo(Home);
