@@ -1,5 +1,5 @@
 import React from "react";
-// import Stepper from "@/components/Stepper"; 
+// import Stepper from "@/components/Stepper";
 // import { educationData } from "@/customData/education";
 
 const About = () => {
@@ -10,13 +10,32 @@ const About = () => {
         Hi there! My name is Shardul Kumar and I am a software engineer with
         over 2 years of experience in the industry. add more...
       </div>
-      <div>
+      <div className=" border-2 border-red-500 my-5 flex flex-col items-center">
         <div className="font-grapeNuts text-6xl">Education</div>
         {/* <Stepper items={educationData} /> */}
-        <div>
-          <div>10th</div>
-          <div>12th</div>
-          <div>Graduation</div>
+        <div className="w-full flex">
+          <div className="border-r-4 w-1/2 p-4">
+            <div>10th</div>
+            <div>12th</div>
+            <div>Graduation</div>
+          </div>
+          {/* <div className=" w-1/2"></div> */}
+        </div>
+        <div className="w-full flex justify-end">
+          {/* <div className="w-1/2"></div> */}
+          <div className="border-l-4 p-4 w-1/2">
+            <div>10th</div>
+            <div>12th</div>
+            <div>Graduation</div>
+          </div>
+        </div>
+        <div className="w-full flex">
+          <div className="border-r-4 p-4 w-1/2">
+            <div>10th</div>
+            <div>12th</div>
+            <div>Graduation</div>
+          </div>
+          {/* <div className="w-1/2 "></div> */}
         </div>
       </div>
       <div>
