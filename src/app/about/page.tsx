@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="flex flex-col w-full p-5 ">
       <div className=" w-4/5 my-10 m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-[#FC6736]">About Me</div>
+        <div className="font-grapeNuts text-6xl text-center text-[#FC6736]">About Me</div>
         <div className="font-oxygen md:text-lg">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
           ullam quia minus ratione Lorem ipsum dolor sit amet consectetur
@@ -15,7 +15,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-4/5 my-10 m-auto flex flex-col items-center gap-8">
-        <div className="font-grapeNuts text-6xl text-[#FC6736]">Education</div>
+        <div className="font-grapeNuts text-6xl text-[#FC6736] mb-8">Education</div>
         <div className="w-full flex">
           <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
             <div>10th</div>
@@ -39,7 +39,7 @@ const About = () => {
         </div>
       </div>
       <div className=" w-4/5 my-10 m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-center text-[#FC6736]">
+        <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
           Professional Skills
         </div>
         <div className="w-full flex gap-2">
@@ -84,7 +84,7 @@ const About = () => {
         </div>
       </div>
       <div className=" w-4/5 my-10 m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-center text-[#FC6736]">
+        <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
           Work Experience
         </div>
         <div className="flex flex-col gap-2 ">
@@ -111,7 +111,7 @@ const About = () => {
         </div>
       </div>
       <div className=" w-4/5 my-10 m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-center text-[#FC6736]">
+        <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
           My Interest
         </div>
         <div className="w-full grid grid-cols-3 p-4">
