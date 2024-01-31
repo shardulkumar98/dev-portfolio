@@ -34,32 +34,6 @@ const About = () => {
           labore.
         </div>
       </div>
-      <div className="w-4/5 my-10 py-10  m-auto  flex flex-col items-center gap-8">
-        <div className="font-grapeNuts text-6xl text-[#FC6736] mb-8">
-          Education
-        </div>
-        <div className="w-full flex">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
-            <div>10th</div>
-            <div>2016</div>
-            <div>Bishop Shaw Intermediate College, Nainital</div>
-          </div>
-        </div>
-        <div className="w-full flex justify-end">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] p-4 w-1/2">
-            <div>10th</div>
-            <div>2016</div>
-            <div>Bishop Shaw Intermediate College, Nainital</div>
-          </div>
-        </div>
-        <div className="w-full flex">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] p-4 w-1/2">
-            <div>10th</div>
-            <div>2016</div>
-            <div>Bishop Shaw Intermediate College, Nainital</div>
-          </div>
-        </div>
-      </div>
       <div className=" w-4/5 my-10 py-10  m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
           Professional Skills
@@ -144,6 +118,32 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="w-4/5 my-10 py-10  m-auto  flex flex-col items-center gap-8">
+        <div className="font-grapeNuts text-6xl text-[#FC6736] mb-8">
+          Education
+        </div>
+        <div className="w-full flex">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
+            <div>10th</div>
+            <div>2016</div>
+            <div>Bishop Shaw Intermediate College, Nainital</div>
+          </div>
+        </div>
+        <div className="w-full flex justify-end">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] p-4 w-1/2">
+            <div>10th</div>
+            <div>2016</div>
+            <div>Bishop Shaw Intermediate College, Nainital</div>
+          </div>
+        </div>
+        <div className="w-full flex">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] p-4 w-1/2">
+            <div>10th</div>
+            <div>2016</div>
+            <div>Bishop Shaw Intermediate College, Nainital</div>
+          </div>
+        </div>
+      </div>
       <div className=" w-4/5 my-10 py-10 m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
           My Interest
@@ -156,6 +156,12 @@ const About = () => {
           <li>photography</li>
           <li>photography</li>
         </div>
+      </div>
+      <div className=" w-4/5 my-10 py-10 m-auto items-center flex flex-col gap-8">
+        <div className="font-grapeNuts text-6xl text-[#FC6736] mb-8">
+          Certificates
+        </div>
+        <div>Coming Soon...</div>
       </div>
     </motion.div>
   );
