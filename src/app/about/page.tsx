@@ -1,8 +1,26 @@
+"use client";
+import { motion } from "framer-motion";
 import React from "react";
 
 const About = () => {
+  const Variant = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      tranisition: {
+        duration: 1,
+      },
+    },
+  };
   return (
-    <div className="flex flex-col w-full p-5 ">
+    <motion.div
+      variants={Variant}
+      initial="hidden"
+      animate="visible"
+      className="flex flex-col w-full p-5 "
+    >
       <div className=" w-4/5 my-10 py-10  m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-6xl text-center text-[#FC6736]">
           About Me
@@ -139,7 +157,7 @@ const About = () => {
           <li>photography</li>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

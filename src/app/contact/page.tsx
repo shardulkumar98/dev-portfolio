@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import React from "react";
 import {
   FaSquareXTwitter,
@@ -7,8 +9,25 @@ import {
 } from "react-icons/fa6";
 
 const Contact = () => {
+  const Variant = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      tranisition: {
+        duration: 1,
+      },
+    },
+  };
+
   return (
-    <div className="py-10 gap-8">
+    <motion.div
+      variants={Variant}
+      initial="hidden"
+      animate="visible"
+      className="py-10 gap-8"
+    >
       <div className="font-grapeNuts text-6xl text-[#FC6736] text-center mb-8">
         Contact
       </div>
@@ -62,7 +81,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
