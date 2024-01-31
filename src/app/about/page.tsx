@@ -3,8 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <div className="flex flex-col w-full p-5 ">
-      <div className=" w-4/5 my-10 m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-center text-[#FC6736]">About Me</div>
+      <div className=" w-4/5 my-10 py-10  m-auto flex flex-col gap-8">
+        <div className="font-grapeNuts text-6xl text-center text-[#FC6736]">
+          About Me
+        </div>
         <div className="font-oxygen md:text-lg">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
           ullam quia minus ratione Lorem ipsum dolor sit amet consectetur
@@ -14,8 +16,10 @@ const About = () => {
           labore.
         </div>
       </div>
-      <div className="w-4/5 my-10 m-auto flex flex-col items-center gap-8">
-        <div className="font-grapeNuts text-6xl text-[#FC6736] mb-8">Education</div>
+      <div className="w-4/5 my-10 py-10  m-auto  flex flex-col items-center gap-8">
+        <div className="font-grapeNuts text-6xl text-[#FC6736] mb-8">
+          Education
+        </div>
         <div className="w-full flex">
           <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
             <div>10th</div>
@@ -38,13 +42,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" w-4/5 my-10 m-auto flex flex-col gap-8">
+      <div className=" w-4/5 my-10 py-10  m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
           Professional Skills
         </div>
         <div className="w-full flex gap-2">
           <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
-            <div>Frontend:</div>
+            <div className="text-center font-mynerve text-xl text-[#FC6736] ">
+              FRONTEND
+            </div>
             <div>
               <li>html</li>
               <li>css</li>
@@ -54,7 +60,9 @@ const About = () => {
         </div>
         <div className="w-full flex gap-2 justify-end">
           <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
-            <div>Backend:</div>
+            <div className="text-center font-mynerve text-xl text-[#FC6736] ">
+              BACKEND
+            </div>
             <div>
               <li>html</li>
               <li>css</li>
@@ -64,7 +72,9 @@ const About = () => {
         </div>
         <div className="w-full flex">
           <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
-            <div>Devops:</div>
+            <div className="text-center font-mynerve text-xl text-[#FC6736] ">
+              DEVOPS
+            </div>
             <div>
               <li>Docker</li>
               <li>Jenkins</li>
@@ -74,7 +84,9 @@ const About = () => {
         </div>
         <div className="w-full flex gap-2 justify-end">
           <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
-            <div>Tools:</div>
+            <div className="text-center font-mynerve text-xl text-[#FC6736] ">
+              OTHER TOOLS
+            </div>
             <div>
               <li>Git</li>
               <li>Git hub</li>
@@ -83,13 +95,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" w-4/5 my-10 m-auto flex flex-col gap-8">
+      <div className=" w-4/5 my-10 py-10 m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
           Work Experience
         </div>
         <div className="flex flex-col gap-2 ">
           <div className="text-2xl text-[#BCA37F]">Company Name</div>
-          <div className="text-sm font-oxygen text-[#7D7C7C]">Web Developer Intern</div>
+          <div className="text-sm font-oxygen text-[#7D7C7C]">
+            Web Developer Intern
+          </div>
           <div className="font-oxygen">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
             neque vitae? Est aspernatur autem inventore culpa doloremque ullam
@@ -98,7 +112,9 @@ const About = () => {
         </div>
         <div className="flex flex-col gap-2">
           <div className="text-2xl text-[#BCA37F]">Wits Innovation Lab</div>
-          <div className="text-sm font-oxygen text-[#7D7C7C]">Assistant Software Engineer</div>
+          <div className="text-sm font-oxygen text-[#7D7C7C]">
+            Assistant Software Engineer
+          </div>
           <div className="font-oxygen">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ut
             magnam asperiores obcaecati voluptatibus tempora a, debitis
@@ -110,7 +126,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" w-4/5 my-10 m-auto flex flex-col gap-8">
+      <div className=" w-4/5 my-10 py-10 m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
           My Interest
         </div>

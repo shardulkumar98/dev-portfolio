@@ -8,7 +8,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="py-6 gap-8">
+    <div className="py-10 gap-8">
       <div className="font-grapeNuts text-6xl text-[#FC6736] text-center mb-8">
         Contact
       </div>
@@ -17,24 +17,24 @@ const Contact = () => {
           <input
             type="text"
             placeholder="name"
-            className="w-4/5 rounded-lg  border-b-[1px] p-2"
+            className="w-4/5 rounded-lg bg-transparent focus:outline-none border-b-[1px] p-2"
           />
           <input
             type="text"
             placeholder="email"
-            className="w-4/5 rounded-lg  border-b-[1px] p-2"
+            className="w-4/5 rounded-lg bg-transparent focus:outline-none border-b-[1px] p-2"
           />
           <textarea
             rows={5}
             placeholder="write here..."
-            className="w-4/5 rounded-lg  border-b-[1px] p-2"
+            className="w-4/5 rounded-lg  bg-transparent focus:outline-none border-b-[1px] p-2"
           />
-          <button type="submit" className="border-2 px-8 py-1 rounded-lg">
+          <button type="submit" className="border-2 w-1/3 px-8 py-1 rounded-lg">
             Send
           </button>
         </div>
-        <div className="w-1/2 py-8 flex flex-col gap-10 px-5">
-          <div className="w-3/4 flex flex-col gap-4">
+        <div className="w-1/2 py-8 items-center flex flex-col gap-10 px-5">
+          <div className="w-3/4 flex flex-col gap-5">
             <div>
               <span>Name: </span>
               <span>Shardul Kumar</span>
@@ -53,13 +53,13 @@ const Contact = () => {
               <FaInstagram className="cursor-pointer" />
               <FaLinkedin className="cursor-pointer" />
             </div>
+            <button
+              type="button"
+              className="border-2 mt-7 px-5 w-1/2 py-2 rounded bg-slate-600"
+            >
+              Download Resume
+            </button>
           </div>
-          <button
-            type="button"
-            className="border-2 px-5 w-1/2 py-2 rounded bg-slate-600"
-          >
-            Download Resume
-          </button>
         </div>
       </div>
     </div>
