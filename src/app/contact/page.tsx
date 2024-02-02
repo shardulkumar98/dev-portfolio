@@ -1,6 +1,6 @@
 "use client";
+import {memo} from "react";
 import { motion } from "framer-motion";
-import React from "react";
 import {
   FaSquareXTwitter,
   FaInstagram,
@@ -85,4 +85,4 @@ const Contact = () => {
   );
 };
 
-export default React.memo(Contact);
+export default memo(Contact);
