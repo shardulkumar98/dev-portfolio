@@ -26,13 +26,13 @@ const Contact = () => {
       variants={Variant}
       initial="hidden"
       animate="visible"
-      className="py-10 gap-8"
+      className="sm:py-10 gap-8"
     >
-      <div className="font-grapeNuts text-6xl text-[#FC6736] text-center mb-8">
+      <div className="font-grapeNuts text-4xl sm:text-6xl text-[#FC6736] text-center my-8">
         Contact
       </div>
-      <div className=" border-red-500 flex">
-        <div className=" w-1/2 flex flex-col items-center gap-7 py-10">
+      <div className="w-full flex flex-col sm:flex-row lg:flex-row">
+        <div className="sm:w-1/2 flex flex-col items-center gap-7 py-10">
           <input
             type="text"
             placeholder="name"
@@ -52,7 +52,7 @@ const Contact = () => {
             Send
           </button>
         </div>
-        <div className="w-1/2 py-8 items-center flex flex-col gap-10 px-5">
+        <div className="sm:w-1/2 py-8 items-center flex flex-col gap-10 px-5">
           <div className="w-3/4 flex flex-col gap-5">
             <div>
               <span>Name: </span>
@@ -74,7 +74,7 @@ const Contact = () => {
             </div>
             <button
               type="button"
-              className="border-2 mt-7 px-5 w-1/2 py-2 rounded bg-slate-600"
+              className="border-2 mt-7 px-5 sm:w-1/2 py-2 rounded bg-slate-600"
             >
               Download Resume
             </button>

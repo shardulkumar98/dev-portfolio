@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { data } from "./data";
 import Link from "next/link";
-import { Router } from "next/router";
+// import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   const navVariant = {
@@ -20,7 +20,7 @@ const Navbar = () => {
       variants={navVariant}
       initial="hidden"
       animate="visible"
-      className="flex justify-between items-center py-6 px-5 md:py-5 md:px-40 lg:py-10 border-b-[1px] border-[#BCA37F] bg-[#191717]"
+      className="flex justify-between items-center py-6 px-5 md:py-5 md:px-20 lg:py-10 border-b-[1px] border-[#BCA37F] bg-[#191717]"
     >
       <motion.div
         variants={navVariant}
@@ -28,6 +28,7 @@ const Navbar = () => {
       >
         <Link href={"/"}>Shardul Kumar</Link>
       </motion.div>
+      {/* <RxHamburgerMenu className="block sm:hidden lg:hidden" /> */}
       <div className="hidden w-full md:flex md:gap-16 justify-end">
         {data.map((e) => (
           <motion.div variants={navVariant} key={e?.label}>

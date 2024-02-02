@@ -1,4 +1,6 @@
 "use client";
+import ExpressIcon from "@/assets/svg/express";
+import StrapiIcon from "@/assets/svg/strapi";
 import { motion } from "framer-motion";
 import React from "react";
 
@@ -19,10 +21,10 @@ const About = () => {
       variants={Variant}
       initial="hidden"
       animate="visible"
-      className="flex flex-col w-full p-5 "
+      className="flex flex-col w-full px-5"
     >
-      <div className=" w-4/5 my-10 py-10  m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-center text-[#FC6736]">
+      <div className="sm:w-4/5 w-full sm:py-10 m-auto flex flex-col">
+        <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
           About Me
         </div>
         <div className="font-oxygen md:text-lg">
@@ -34,12 +36,12 @@ const About = () => {
           labore.
         </div>
       </div>
-      <div className=" w-4/5 my-10 py-10  m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
+      <div className="sm:w-4/5 w-full sm:py-14 m-auto flex flex-col gap-8">
+        <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
           Professional Skills
         </div>
         <div className="w-full flex gap-2">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] w-full sm:w-1/2 p-4">
             <div className="text-center font-mynerve text-xl text-[#FC6736] ">
               FRONTEND
             </div>
@@ -51,19 +53,18 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex gap-2 justify-end">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] w-full sm:w-1/2 p-4">
             <div className="text-center font-mynerve text-xl text-[#FC6736] ">
               BACKEND
             </div>
             <div>
-              <li>html</li>
               <li>css</li>
               <li>javscript</li>
             </div>
           </div>
         </div>
         <div className="w-full flex">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] w-full sm:w-1/2 p-4">
             <div className="text-center font-mynerve text-xl text-[#FC6736] ">
               DEVOPS
             </div>
@@ -75,7 +76,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex gap-2 justify-end">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] w-full sm:w-1/2 p-4">
             <div className="text-center font-mynerve text-xl text-[#FC6736] ">
               OTHER TOOLS
             </div>
@@ -87,8 +88,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" w-4/5 my-10 py-10 m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
+      <div className=" sm:w-4/5  sm:py-10 m-auto flex flex-col gap-8">
+        <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
           Work Experience
         </div>
         <div className="flex flex-col gap-2 ">
@@ -118,34 +119,34 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-4/5 my-10 py-10  m-auto  flex flex-col items-center gap-8">
-        <div className="font-grapeNuts text-6xl text-[#FC6736] mb-8">
+      <div className="sm:w-4/5  sm:py-10 m-auto  flex flex-col items-center gap-8">
+        <div className="font-grapeNuts text-4xl sm:text-6xl text-[#FC6736] my-8">
           Education
         </div>
         <div className="w-full flex">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] w-1/2 p-4">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] sm:w-1/2 p-4">
             <div>10th</div>
             <div>2016</div>
             <div>Bishop Shaw Intermediate College, Nainital</div>
           </div>
         </div>
         <div className="w-full flex justify-end">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] p-4 w-1/2">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] p-4 sm:w-1/2">
             <div>10th</div>
             <div>2016</div>
             <div>Bishop Shaw Intermediate College, Nainital</div>
           </div>
         </div>
         <div className="w-full flex">
-          <div className="border-[1px] rounded-lg border-[#BCA37F] p-4 w-1/2">
+          <div className="border-[1px] rounded-lg border-[#BCA37F] p-4 sm:w-1/2">
             <div>10th</div>
             <div>2016</div>
             <div>Bishop Shaw Intermediate College, Nainital</div>
           </div>
         </div>
       </div>
-      <div className=" w-4/5 my-10 py-10 m-auto flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-center text-[#FC6736] mb-8">
+      <div className="sm:w-4/5   sm:py-10 m-auto flex flex-col gap-8">
+        <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
           My Interest
         </div>
         <div className="w-full grid grid-cols-3 p-4">
@@ -157,8 +158,8 @@ const About = () => {
           <li>photography</li>
         </div>
       </div>
-      <div className=" w-4/5 my-10 py-10 m-auto items-center flex flex-col gap-8">
-        <div className="font-grapeNuts text-6xl text-[#FC6736] mb-8">
+      <div className="w-4/5 sm:py-10 m-auto items-center flex flex-col gap-8">
+        <div className="font-grapeNuts text-4xl sm:text-6xl text-[#FC6736] my-8">
           Certificates
         </div>
         <div>Coming Soon...</div>
