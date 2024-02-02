@@ -1,5 +1,5 @@
 "use client";
-import React, { memo } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { data } from "./data";
 import Link from "next/link";
@@ -45,4 +45,4 @@ const Navbar = () => {
   );
 };
 
-export default memo(Navbar);
+export default React.memo(Navbar);
