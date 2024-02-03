@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import React from "react";
 import {
   FaSquareXTwitter,
@@ -9,23 +9,23 @@ import {
 } from "react-icons/fa6";
 
 const Contact = () => {
-  const Variant = {
-    hidden: {
-      opacity: 0,
-    },
-    visible: {
-      opacity: 1,
-      tranisition: {
-        duration: 1,
-      },
-    },
-  };
+  // const Variant = {
+  //   hidden: {
+  //     opacity: 0,
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     tranisition: {
+  //       duration: 1,
+  //     },
+  //   },
+  // };
 
   return (
-    <motion.div
-      variants={Variant}
-      initial="hidden"
-      animate="visible"
+    <div
+      // variants={Variant}
+      // initial="hidden"
+      // animate="visible"
       className="sm:py-10 gap-8"
     >
       <div className="font-grapeNuts text-4xl sm:text-6xl text-[#FC6736] text-center my-8">
@@ -81,8 +81,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
-export default React.memo(Contact);
+export default Contact

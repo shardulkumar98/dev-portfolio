@@ -1,29 +1,36 @@
 "use client";
-import ExpressIcon from "@/assets/svg/express";
-import StrapiIcon from "@/assets/svg/strapi";
-import { motion } from "framer-motion";
+import AboutMe from "@/views/about/aboutMe";
+import Certificates from "@/views/about/certificates";
+import Education from "@/views/about/education";
+import Experince from "@/views/about/experince";
+import Interest from "@/views/about/interest";
+// import ExpressIcon from "@/assets/svg/express";
+// import StrapiIcon from "@/assets/svg/strapi";
+import Skills from "@/views/about/skills";
+// import { motion } from "framer-motion";
 import React from "react";
 
 const About = () => {
-  const Variant = {
-    hidden: {
-      opacity: 0,
-    },
-    visible: {
-      opacity: 1,
-      tranisition: {
-        duration: 1,
-      },
-    },
-  };
+  // const Variant = {
+  //   hidden: {
+  //     opacity: 0,
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     tranisition: {
+  //       duration: 1,
+  //     },
+  //   },
+  // };
+
   return (
-    <motion.div
-      variants={Variant}
-      initial="hidden"
-      animate="visible"
-      className="flex flex-col w-full px-5"
+    <div
+      // variants={Variant}
+      // initial="hidden"
+      // animate="visible"
+      className="flex flex-col w-full px-5 items-center"
     >
-      <div className="sm:w-4/5 w-full sm:py-10 m-auto flex flex-col">
+      {/* <div className="sm:w-4/5 w-full sm:py-10 m-auto flex flex-col">
         <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
           About Me
         </div>
@@ -35,8 +42,9 @@ const About = () => {
           rerum? Laboriosam est soluta sequi accusamus corrupti aperiam ab, ipsa
           labore.
         </div>
-      </div>
-      <div className="sm:w-4/5 w-full sm:py-14 m-auto flex flex-col gap-8">
+      </div> */}
+      <AboutMe />
+      {/* <div className="sm:w-4/5 w-full sm:py-14 m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
           Professional Skills
         </div>
@@ -87,8 +95,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className=" sm:w-4/5  sm:py-10 m-auto flex flex-col gap-8">
+      </div> */}
+      <Skills />
+      {/* <div className=" sm:w-4/5  sm:py-10 m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
           Work Experience
         </div>
@@ -118,8 +127,9 @@ const About = () => {
             vitae ex deleniti.
           </div>
         </div>
-      </div>
-      <div className="sm:w-4/5  sm:py-10 m-auto  flex flex-col items-center gap-8">
+      </div> */}
+      <Experince />
+      {/* <div className="sm:w-4/5  sm:py-10 m-auto  flex flex-col items-center gap-8">
         <div className="font-grapeNuts text-4xl sm:text-6xl text-[#FC6736] my-8">
           Education
         </div>
@@ -144,8 +154,9 @@ const About = () => {
             <div>Bishop Shaw Intermediate College, Nainital</div>
           </div>
         </div>
-      </div>
-      <div className="sm:w-4/5   sm:py-10 m-auto flex flex-col gap-8">
+      </div> */}
+      <Education />
+      {/* <div className="sm:w-4/5   sm:py-10 m-auto flex flex-col gap-8">
         <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
           My Interest
         </div>
@@ -157,15 +168,17 @@ const About = () => {
           <li>photography</li>
           <li>photography</li>
         </div>
-      </div>
-      <div className="w-4/5 sm:py-10 m-auto items-center flex flex-col gap-8">
+      </div> */}
+      <Interest />
+      {/* <div className="w-4/5 sm:py-10 m-auto items-center flex flex-col gap-8">
         <div className="font-grapeNuts text-4xl sm:text-6xl text-[#FC6736] my-8">
           Certificates
         </div>
         <div>Coming Soon...</div>
-      </div>
-    </motion.div>
+      </div> */}
+      <Certificates />
+    </div>
   );
 };
 
-export default React.memo(About);
+export default About;
