@@ -19,28 +19,28 @@ const Skills = () => {
             FRONTEND
           </div>
           {/* <div className="flex justify-around flex-wrap gap-6"> */}
-          <div className="flex items-center justify-between">
-            <div className="flex flex-col items-center gap-3">
+          <div className="grid grid-cols-3 gap-10 place-items-center h-screen">
+            <div className="flex flex-col items-center gap-4">
               <Image src={HtmlImage} height={50} width={50} alt="laoding" />
               <span>Html 5</span>
             </div>
 
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={CssImage} height={50} width={50} alt="laoding" />
               <span>Css 3</span>
             </div>
 
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={JsImage} height={50} width={50} alt="laoding" />
               <span>Javascript</span>
             </div>
 
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={ReactImage} height={50} width={50} alt="laoding" />
               <span>React</span>
             </div>
 
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={NextImage} height={50} width={50} alt="laoding" />
               <span>Next.js</span>
             </div>
@@ -53,24 +53,24 @@ const Skills = () => {
           <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">
             BACKEND
           </div>
-          <div className="flex items-center justify-between">
-            <div className="flex flex-col items-center gap-3">
+          <div className="grid grid-cols-3 gap-10 place-items-center h-screen">
+            <div className="flex flex-col items-center gap-4">
               <Image src={HtmlImage} height={50} width={50} alt="laoding" />
               <span>Html 5</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={CssImage} height={50} width={50} alt="laoding" />
               <span>Css 3</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={JsImage} height={50} width={50} alt="laoding" />
               <span>Javascript</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={ReactImage} height={50} width={50} alt="laoding" />
               <span>React</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={NextImage} height={50} width={50} alt="laoding" />
               <span>Next.js</span>
             </div>
@@ -82,24 +82,24 @@ const Skills = () => {
           <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">
             DEVOPS
           </div>
-          <div className="flex items-center justify-between">
-            <div className="flex flex-col items-center gap-3">
+          <div className="grid grid-cols-3 gap-10 place-items-center h-screen">
+            <div className="flex flex-col items-center gap-4">
               <Image src={HtmlImage} height={50} width={50} alt="laoding" />
               <span>Html 5</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={CssImage} height={50} width={50} alt="laoding" />
               <span>Css 3</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={JsImage} height={50} width={50} alt="laoding" />
               <span>Javascript</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={ReactImage} height={50} width={50} alt="laoding" />
               <span>React</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={NextImage} height={50} width={50} alt="laoding" />
               <span>Next.js</span>
             </div>
@@ -111,24 +111,24 @@ const Skills = () => {
           <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">
             OTHER TOOLS / Libraries
           </div>
-          <div className="flex items-center justify-between">
-            <div className="flex flex-col items-center gap-3">
+          <div className="grid grid-cols-3 gap-10 place-items-center h-screen">
+            <div className="flex flex-col items-center gap-4">
               <Image src={HtmlImage} height={50} width={50} alt="laoding" />
               <span>Html 5</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={CssImage} height={50} width={50} alt="laoding" />
               <span>Css 3</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={JsImage} height={50} width={50} alt="laoding" />
               <span>Javascript</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={ReactImage} height={50} width={50} alt="laoding" />
               <span>React</span>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-4">
               <Image src={NextImage} height={50} width={50} alt="laoding" />
               <span>Next.js</span>
             </div>
