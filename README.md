@@ -34,4 +34,76 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # dev-portfolio
+
+.
+├── README.md
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│ ├── next.svg
+│ └── vercel.svg
+├── src
+│ ├── app
+│ │ ├── about
+│ │ │ └── page.tsx
+│ │ ├── contact
+│ │ │ └── page.tsx
+│ │ ├── favicon.ico
+│ │ ├── globals.css
+│ │ ├── layout.tsx
+│ │ └── page.tsx
+│ ├── assets
+│ │ ├── png
+│ │ │ ├── css.png
+│ │ │ ├── html.png
+│ │ │ ├── js.png
+│ │ │ ├── nextjs.png
+│ │ │ └── reactlogo.png
+│ │ └── svg
+│ │ ├── clg.tsx
+│ │ ├── cssIcon.tsx
+│ │ ├── digitalOcean.tsx
+│ │ ├── docker.tsx
+│ │ ├── express.tsx
+│ │ ├── fig.tsx
+│ │ ├── fire.tsx
+│ │ ├── gh.tsx
+│ │ ├── gitl.tsx
+│ │ ├── graphql.tsx
+│ │ ├── htmlIcon.tsx
+│ │ ├── javaScript.tsx
+│ │ ├── jenkins.tsx
+│ │ ├── jira.tsx
+│ │ ├── mongo.tsx
+│ │ ├── node.tsx
+│ │ ├── schl.tsx
+│ │ ├── strapi.tsx
+│ │ └── vercel.tsx
+│ ├── components
+│ │ ├── Footer
+│ │ │ └── Footer.tsx
+│ │ ├── Navbar
+│ │ │ ├── Nabar.tsx
+│ │ │ └── data.ts
+│ │ └── Stepper
+│ │ └── index.tsx
+│ ├── customData
+│ │ └── education.ts
+│ └── views
+│ ├── about
+│ │ ├── aboutMe.tsx
+│ │ ├── certificates.tsx
+│ │ ├── education.tsx
+│ │ ├── experince.tsx
+│ │ ├── interest.tsx
+│ │ ├── projects.tsx
+│ │ └── skills.tsx
+│ └── landing
+│ └── intro.tsx
+├── tailwind.config.ts
+└── tsconfig.json

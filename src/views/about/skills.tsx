@@ -17,6 +17,7 @@ import GitHubIcon from "@/assets/svg/gh";
 import GitLabIcon from "@/assets/svg/gitl";
 import FigmaIcon from "@/assets/svg/fig";
 import JiraIcon from "@/assets/svg/jira";
+import DigitalOceanIcon from "@/assets/svg/digitalOcean";
 
 const Skills = () => {
   return (
@@ -96,6 +97,10 @@ const Skills = () => {
             <div className="flex flex-col items-center gap-4">
               <JenkinsIcon />
               <span>Jenkins</span>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <DigitalOceanIcon />
+              <span>Digital Ocean</span>
             </div>
             <div className="flex flex-col items-center gap-4">
               <VercelIcon />
