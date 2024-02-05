@@ -14,8 +14,12 @@ const Education = () => {
           <SchoolIcon />
           <div className="">
             <div className="text-[#FC6736]">10th</div>
-            <div className=" text-sm text-[#BCA37F] font-palanquin font-light">2016</div>
-            <div className="text-[#7D7C7C] font-palanquin font-light">Bishop Shaw Intermediate College, Nainital</div>
+            <div className=" text-sm text-[#BCA37F] font-palanquin font-light">
+              2016
+            </div>
+            <div className="text-[#7D7C7C] font-palanquin font-light">
+              Bishop Shaw Intermediate College, Nainital
+            </div>
           </div>
         </div>
       </div>
@@ -24,8 +28,12 @@ const Education = () => {
           <SchoolIcon />
           <div className="">
             <div className="text-[#FC6736]">12th</div>
-            <div className=" text-sm text-[#BCA37F] font-palanquin font-light">2016</div>
-            <div className="text-[#7D7C7C] font-palanquin font-light">Bishop Shaw Intermediate College, Nainital</div>
+            <div className=" text-sm text-[#BCA37F] font-palanquin font-light">
+              2016
+            </div>
+            <div className="text-[#7D7C7C] font-palanquin font-light">
+              Bishop Shaw Intermediate College, Nainital
+            </div>
           </div>
         </div>
       </div>
@@ -34,8 +42,12 @@ const Education = () => {
           <CollegeIcon />
           <div className="">
             <div className="text-[#FC6736]">B.Tech / CSE</div>
-            <div className=" text-sm text-[#BCA37F] font-palanquin font-light">2022</div>
-            <div className="text-[#7D7C7C] font-palanquin font-light">Amrapali Institue of Technology & Sciences, Haldwani</div>
+            <div className=" text-sm text-[#BCA37F] font-palanquin font-light">
+              2022
+            </div>
+            <div className="text-[#7D7C7C] font-palanquin font-light">
+              Amrapali Institue of Technology & Sciences, Haldwani
+            </div>
           </div>
         </div>
       </div>
