@@ -1,28 +1,28 @@
 "use client";
 import Button from "@/components/Button";
 import SocialLinks from "@/components/SocialLinks";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import React from "react";
 
 
 const Contact = () => {
-  // const Variant = {
-  //   hidden: {
-  //     opacity: 0,
-  //   },
-  //   visible: {
-  //     opacity: 1,
-  //     tranisition: {
-  //       duration: 1,
-  //     },
-  //   },
-  // };
+  const Variant = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      tranisition: {
+        duration: 1,
+      },
+    },
+  };
 
   return (
-    <div
-      // variants={Variant}
-      // initial="hidden"
-      // animate="visible"
+    <motion.div
+      variants={Variant}
+      initial="hidden"
+      animate="visible"
       className="sm:py-10 gap-8"
     >
       <div className="font-grapeNuts text-4xl sm:text-6xl text-[#FC6736] text-center my-8">
@@ -63,18 +63,12 @@ const Contact = () => {
               <span>Phone: </span>
               <span>+919368662818</span>
             </div>
-            {/* <div className="flex gap-5 items-center">
-              <FaGithub className="cursor-pointer" />
-              <FaSquareXTwitter className="cursor-pointer" />
-              <FaInstagram className="cursor-pointer" />
-              <FaLinkedin className="cursor-pointer" />
-            </div> */}
             <SocialLinks/>
             <Button/>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
