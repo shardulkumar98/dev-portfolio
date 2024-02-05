@@ -16,6 +16,7 @@ const config: Config = {
         grapeNuts: ['"Grape Nuts", cursive'],
         mynerve: ['"Mynerve", cursive'],
         oxygen: ['"Oxygen", sans-serif'],
+        palanquin: ['"Palanquin", sans-serif'],
       },
     },
   },
