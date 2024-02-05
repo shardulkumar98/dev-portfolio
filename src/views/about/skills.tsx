@@ -6,6 +6,17 @@ import CssImage from "@/assets/png/css.png";
 import JsImage from "@/assets/png/js.png";
 import ReactImage from "@/assets/png/reactlogo.png";
 import NextImage from "@/assets/png/nextjs.png";
+import NodeIcon from "@/assets/svg/node";
+import ExpreeIcon from "@/assets/svg/express";
+import GraphqlIcon from "@/assets/svg/graphql";
+import DockerIcon from "@/assets/svg/docker";
+import JenkinsIcon from "@/assets/svg/jenkins";
+import VercelIcon from "@/assets/svg/vercel";
+import FirebaseIcon from "@/assets/svg/fire";
+import GitHubIcon from "@/assets/svg/gh";
+import GitLabIcon from "@/assets/svg/gitl";
+import FigmaIcon from "@/assets/svg/fig";
+import JiraIcon from "@/assets/svg/jira";
 
 const Skills = () => {
   return (
@@ -45,7 +56,6 @@ const Skills = () => {
               <span>Next.js</span>
             </div>
           </div>
-
         </div>
       </div>
       <div className="w-full flex gap-2 justify-end">
@@ -55,24 +65,20 @@ const Skills = () => {
           </div>
           <div className="grid grid-cols-3 gap-10 place-items-center h-screen">
             <div className="flex flex-col items-center gap-4">
-              <Image src={HtmlImage} height={50} width={50} alt="laoding" />
-              <span>Html 5</span>
+              <NodeIcon />
+              <span>Node.js</span>
             </div>
             <div className="flex flex-col items-center gap-4">
-              <Image src={CssImage} height={50} width={50} alt="laoding" />
-              <span>Css 3</span>
+              <ExpreeIcon />
+              <span>Express.js</span>
             </div>
             <div className="flex flex-col items-center gap-4">
-              <Image src={JsImage} height={50} width={50} alt="laoding" />
-              <span>Javascript</span>
+              <GraphqlIcon />
+              <span>Graphql</span>
             </div>
             <div className="flex flex-col items-center gap-4">
-              <Image src={ReactImage} height={50} width={50} alt="laoding" />
-              <span>React</span>
-            </div>
-            <div className="flex flex-col items-center gap-4">
-              <Image src={NextImage} height={50} width={50} alt="laoding" />
-              <span>Next.js</span>
+              <FirebaseIcon />
+              <span>Firebase</span>
             </div>
           </div>
         </div>
@@ -84,24 +90,16 @@ const Skills = () => {
           </div>
           <div className="grid grid-cols-3 gap-10 place-items-center h-screen">
             <div className="flex flex-col items-center gap-4">
-              <Image src={HtmlImage} height={50} width={50} alt="laoding" />
-              <span>Html 5</span>
+              <DockerIcon />
+              <span>Docker</span>
             </div>
             <div className="flex flex-col items-center gap-4">
-              <Image src={CssImage} height={50} width={50} alt="laoding" />
-              <span>Css 3</span>
+              <JenkinsIcon />
+              <span>Jenkins</span>
             </div>
             <div className="flex flex-col items-center gap-4">
-              <Image src={JsImage} height={50} width={50} alt="laoding" />
-              <span>Javascript</span>
-            </div>
-            <div className="flex flex-col items-center gap-4">
-              <Image src={ReactImage} height={50} width={50} alt="laoding" />
-              <span>React</span>
-            </div>
-            <div className="flex flex-col items-center gap-4">
-              <Image src={NextImage} height={50} width={50} alt="laoding" />
-              <span>Next.js</span>
+              <VercelIcon />
+              <span>Vercel</span>
             </div>
           </div>
         </div>
@@ -113,24 +111,20 @@ const Skills = () => {
           </div>
           <div className="grid grid-cols-3 gap-10 place-items-center h-screen">
             <div className="flex flex-col items-center gap-4">
-              <Image src={HtmlImage} height={50} width={50} alt="laoding" />
-              <span>Html 5</span>
+              <JiraIcon />
+              <span>Jira</span>
             </div>
             <div className="flex flex-col items-center gap-4">
-              <Image src={CssImage} height={50} width={50} alt="laoding" />
-              <span>Css 3</span>
+              <GitHubIcon />
+              <span>Git Hub</span>
             </div>
             <div className="flex flex-col items-center gap-4">
-              <Image src={JsImage} height={50} width={50} alt="laoding" />
-              <span>Javascript</span>
+              <GitLabIcon />
+              <span>Git Lab</span>
             </div>
             <div className="flex flex-col items-center gap-4">
-              <Image src={ReactImage} height={50} width={50} alt="laoding" />
-              <span>React</span>
-            </div>
-            <div className="flex flex-col items-center gap-4">
-              <Image src={NextImage} height={50} width={50} alt="laoding" />
-              <span>Next.js</span>
+              <FigmaIcon />
+              <span>Figma</span>
             </div>
           </div>
         </div>
