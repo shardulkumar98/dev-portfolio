@@ -1,12 +1,9 @@
 "use client";
+import Button from "@/components/Button";
+import SocialLinks from "@/components/SocialLinks";
 // import { motion } from "framer-motion";
 import React from "react";
-import {
-  FaSquareXTwitter,
-  FaInstagram,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa6";
+
 
 const Contact = () => {
   // const Variant = {
@@ -66,18 +63,14 @@ const Contact = () => {
               <span>Phone: </span>
               <span>+919368662818</span>
             </div>
-            <div className="flex gap-5 items-center">
+            {/* <div className="flex gap-5 items-center">
               <FaGithub className="cursor-pointer" />
               <FaSquareXTwitter className="cursor-pointer" />
               <FaInstagram className="cursor-pointer" />
               <FaLinkedin className="cursor-pointer" />
-            </div>
-            <button
-              type="button"
-              className="border-2 mt-7 px-5 sm:w-1/2 py-2 rounded bg-slate-600"
-            >
-              Download Resume
-            </button>
+            </div> */}
+            <SocialLinks/>
+            <Button/>
           </div>
         </div>
       </div>
