@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   FaSquareXTwitter,
@@ -12,7 +13,9 @@ const SocialLinks = () => {
       <FaGithub className="cursor-pointer" />
       <FaSquareXTwitter className="cursor-pointer" />
       <FaInstagram className="cursor-pointer" />
-      <FaLinkedin className="cursor-pointer" />
+      <Link target="self" href={'https://www.linkedin.com/in/shardul-kumar-22b565213/'}>
+        <FaLinkedin className="cursor-pointer" />
+      </Link>
     </div>
   );
 };
