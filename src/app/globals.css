@@ -15,7 +15,21 @@ body {
   /* background-color: #3d3b40; */
   background-color: #191717;
   color: #b4b4b3;
+  /* overflow: hidden; */
 }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #191717;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #FC6736;
+    border-radius: 6px;
+  }
 
 @layer utilities {
   .text-balance {

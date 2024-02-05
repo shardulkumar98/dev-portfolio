@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="w-full gap-4 sm:gap-8 md:gap-4 py-14 min-h-full sm:min-h-[50vh] px-5 md:px-24 flex items-center">
-      <div className="">
+    <div className="w-full gap-4 sm:gap-8 md:gap-4 py-24 min-h-full sm:min-h-[50vh] px-5 md:px-24 flex items-center">
+      <div className="w-full">
         <div className="font-oxygen text-2xl text-[#FC6736]">Hello</div>
         <div className="font-oxygen text-3xl md:text-5xl lg:text-7xl">
           I&apos;m Shardul Kumar
@@ -26,7 +26,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="rounded-full">
+      <div className="w-1/2 rounded-full">
         <img className="rounded-[180px] hidden sm:block" src="https://imgs.search.brave.com/h31PorOBhTlpFmX2Eif4kko9aXaBMtlqnwDpE1iuve0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9i/ZWF1dGlmdWwtYW5p/bWUtY2hhcmFjdGVy/LWNhcnRvb24tc2Nl/bmVfMjMtMjE1MTAz/NTE1Ni5qcGc_c2l6/ZT02MjYmZXh0PWpw/Zw" alt={"loading"} />
       </div>
     </div>

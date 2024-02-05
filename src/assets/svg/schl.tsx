@@ -3,11 +3,11 @@ import { SVGProps } from "react";
 const SchoolIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={50}
+    width={80}
     height={50}
     fill="none"
-    stroke="#d9cdcd"
-    strokeWidth={3}
+    stroke="#FC6736"
+    strokeWidth={2}
     viewBox="0 0 64 64"
     {...props}
   >
