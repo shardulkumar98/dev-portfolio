@@ -18,6 +18,7 @@ import GitLabIcon from "@/assets/svg/gitl";
 import FigmaIcon from "@/assets/svg/fig";
 import JiraIcon from "@/assets/svg/jira";
 import DigitalOceanIcon from "@/assets/svg/digitalOcean";
+import TypescriptIcon from "@/assets/svg/typescr";
 
 const Skills = () => {
   return (
@@ -31,7 +32,7 @@ const Skills = () => {
             FRONTEND
           </div>
           {/* <div className="flex justify-around flex-wrap gap-6"> */}
-          <div className="grid grid-cols-3 gap-10 place-items-center">
+          <div className="flex flex-wrap gap-10 justify-between">
             <div className="flex flex-col items-center gap-4">
               <Image src={HtmlImage} height={50} width={50} alt="laoding" />
               <span>Html 5</span>
@@ -64,7 +65,7 @@ const Skills = () => {
           <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">
             BACKEND
           </div>
-          <div className="grid grid-cols-3 gap-10 place-items-center">
+          <div className="flex flex-wrap gap-10 justify-between">
             <div className="flex flex-col items-center gap-4">
               <NodeIcon />
               <span>Node.js</span>
@@ -89,7 +90,7 @@ const Skills = () => {
           <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">
             DEVOPS
           </div>
-          <div className="grid grid-cols-3 gap-10 place-items-center">
+          <div className="flex flex-wrap gap-10 justify-between">
             <div className="flex flex-col items-center gap-4">
               <DockerIcon />
               <span>Docker</span>
@@ -114,7 +115,8 @@ const Skills = () => {
           <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">
             OTHER TOOLS / Libraries
           </div>
-          <div className="grid grid-cols-3 gap-10 place-items-center">
+          <div className="flex flex-wrap gap-10 justify-between">
+            {/* <div className="flex flex-wrap gap-10 justify-between"> */}
             <div className="flex flex-col items-center gap-4">
               <JiraIcon />
               <span>Jira</span>
@@ -130,6 +132,10 @@ const Skills = () => {
             <div className="flex flex-col items-center gap-4">
               <FigmaIcon />
               <span>Figma</span>
+            </div>
+            <div className="flex flex-col items-center gap-4">
+              <TypescriptIcon />
+              <span>Typescript</span>
             </div>
           </div>
         </div>
