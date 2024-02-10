@@ -7,17 +7,24 @@ import {
   FaLinkedin,
 } from "react-icons/fa6";
 
-const SocialLinks = () => {
-  return (
-    <div className="flex gap-5 items-center">
+const SocialLinks = () => (
+  <div className="flex gap-5 items-center">
+    <Link target="blank" href="https://github.com/shardulkumar98">
       <FaGithub className="cursor-pointer" />
+    </Link>
+    <Link target="blank" href="#">
       <FaSquareXTwitter className="cursor-pointer" />
+    </Link>
+    <Link target="blank" href="#">
       <FaInstagram className="cursor-pointer" />
-      <Link target="self" href={'https://www.linkedin.com/in/shardul-kumar-22b565213/'}>
-        <FaLinkedin className="cursor-pointer" />
-      </Link>
-    </div>
-  );
-};
+    </Link>
+    <Link
+      target="blank"
+      href={"https://www.linkedin.com/in/shardul-kumar-22b565213/"}
+    >
+      <FaLinkedin className="cursor-pointer" />
+    </Link>
+  </div>
+);
 
 export default SocialLinks;
