@@ -1,7 +1,7 @@
 "use client";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
-import Button from "@/components/Button";
+import Button from "@/components/DownloadButton";
 import SocialLinks from "@/components/SocialLinks";
 import { motion } from "framer-motion";
 import { exit } from "process";

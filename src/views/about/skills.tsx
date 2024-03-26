@@ -22,45 +22,84 @@ import TypescriptIcon from "@/assets/svg/typescr";
 import StrapiIcon from "@/assets/svg/strapi";
 
 const Skills = () => {
+
+  // const variants = {
+  //   hidden: {
+  //     scale: 0,
+  //   },
+  //   visible: {
+  //     scale: 1,
+  //     tranisition: {
+  //       duration: 1,
+  //     },
+  //   },
+  // }
+
+  const data = [
+    {
+      title: "Frontend",
+      position: "justify-start",
+      items: [
+        {
+          img: HtmlImage,
+          label: "Html 5",
+        },
+        {
+          img: CssImage,
+          label: "CSS 3",
+        },
+        {
+          img: JsImage,
+          label: "Javascript",
+        },
+        {
+          img: ReactImage,
+          label: "React",
+        },
+        {
+          img: NextImage,
+          label: "Next.js",
+        },
+      ],
+    },
+    // {
+    //   title: "Backend",
+    //   position: "justify-end",
+    //   items: [
+    //     {
+    //       img: HtmlImage,
+    //       label: "Node",
+    //     },
+    //   ],
+    // },
+  ];
+
   return (
     <div className="sm:w-4/5 w-full sm:py-14 flex flex-col gap-10 ">
       <div className="font-grapeNuts text-4xl sm:text-6xl text-center text-[#FC6736] my-8">
         Professional Skills
       </div>
-      <div className="w-full flex gap-2">
-        <div className="border-[1px] rounded-lg border-[#BCA37F] flex flex-col gap-8 w-full sm:w-1/2 p-4">
-          <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">
-            FRONTEND
-          </div>
-          {/* <div className="flex justify-around flex-wrap gap-6"> */}
-          <div className="grid grid-cols-3 gap-10 place-items-center">
-            <div className="flex flex-col items-center gap-4">
-              <Image src={HtmlImage} height={50} width={50} alt="laoding" />
-              <span>Html 5</span>
-            </div>
+      
+     {data.map((ele,index)=>(
+       <div key={index} className={`w-full flex gap-2 ${ele.position}`}>
+       <div className="border-[1px] rounded-lg border-[#BCA37F] flex flex-col gap-8 w-full sm:w-1/2 p-4">
+         <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">
+           {ele.title}
+         </div>
+         <div className="grid grid-cols-3 gap-10 place-items-center">
+          {ele.items.map((item, index)=>(
+             <div key={index} className="flex flex-col items-center gap-4">
+             <Image src={item.img} height={50} width={50} alt="laoding" />
+             <span>{item.label}</span>
+           </div>
+          ))}
+         </div>
+       </div>
+     </div>
+     ))}
 
-            <div className="flex flex-col items-center gap-4">
-              <Image src={CssImage} height={50} width={50} alt="laoding" />
-              <span>Css 3</span>
-            </div>
 
-            <div className="flex flex-col items-center gap-4">
-              <Image src={JsImage} height={50} width={50} alt="laoding" />
-              <span>Javascript</span>
-            </div>
-
-            <div className="flex flex-col items-center gap-4">
-              <Image src={ReactImage} height={50} width={50} alt="laoding" />
-              <span>React</span>
-            </div>
-
-            <div className="flex flex-col items-center gap-4">
-              <Image src={NextImage} height={50} width={50} alt="laoding" />
-              <span>Next.js</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      {/* Static data */}
       <div className="w-full flex gap-2 justify-end">
         <div className="border-[1px] rounded-lg border-[#BCA37F] flex flex-col gap-8 w-full sm:w-1/2 p-4">
           <div className="text-center font-mynerve py-4 text-2xl text-[#FC6736] ">

@@ -1,6 +1,6 @@
 "use client";
 
-import Button from "@/components/Button";
+import Button from "@/components/DownloadButton";
 import SocialLinks from "@/components/SocialLinks";
 import Image from "next/image";
 

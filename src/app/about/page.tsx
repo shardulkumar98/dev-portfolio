@@ -3,13 +3,11 @@
 import React from "react";  
 import { motion } from "framer-motion";
 import AboutMe from "@/views/about/aboutMe";
-import Certificates from "@/views/about/certificates";
+// import Certificates from "@/views/about/certificates";
 import Education from "@/views/about/education";
 import Experince from "@/views/about/experince";
 import Interest from "@/views/about/interest";
 import Projects from "@/views/about/projects";
-// import ExpressIcon from "@/assets/svg/express";
-// import StrapiIcon from "@/assets/svg/strapi";
 import Skills from "@/views/about/skills";
 
 const About = () => {
@@ -44,7 +42,7 @@ const About = () => {
 
       <Interest />
 
-      <Certificates />
+      {/* <Certificates /> */}
     </motion.div>
   );
 };

@@ -12,7 +12,7 @@ const SocialLinks = () => (
     <Link target="blank" href="https://github.com/shardulkumar98">
       <FaGithub className="cursor-pointer" />
     </Link>
-    <Link target="blank" href="#">
+    <Link target="blank" href={"https://www.x.com/shardulkum51160"}>
       <FaSquareXTwitter className="cursor-pointer" />
     </Link>
     <Link target="blank" href="#">
